@@ -1,0 +1,29 @@
+{
+  "version": 1.0,
+  "recommended_build": 23094,
+  "outdated_build": [23058, 23096],
+  "mods": [
+    {
+      "id": "test",
+      "name": "test mod",
+      "description": "test plugin used to verify AxManager installs, loads, cache mods etc...",
+      "version": "1.0.0",
+      "recommended_build": 23094,
+      "outdated_build": [23058, 23096],
+      "resources_path": "archive/resources/test",
+      "tags": ["test", "example"],
+      "exists": true
+    },
+    {
+      "id": "ads",
+      "name": "Ads",
+      "description": "a plugin that remove ads.",
+      "version": "1.0.0",
+      "recommended_build": 23094,
+      "outdated_build": [23058, 23096],
+      "resources_path": "archive/resources/ads",
+      "tags": ["remove_ads", "ads"],
+      "exists": true
+    }
+  ]
+}
